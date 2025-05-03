@@ -1,5 +1,5 @@
 # When the following code is run in any Crystal sandbox, it will create a file called "hello_world.txt" 
-# and write the text "Hello World" into it.
+# and write the text "Hello World" into it
 
 file = File.open("hello_world.txt", "w")
 file.puts "Hello World"
